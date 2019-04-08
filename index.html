@@ -1,45 +1,111 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Project: Recipe book</title>
-        <meta charset="utf-8">
-        <style>
-            h1 {
-                color:red;
-                font-family: ;
-                font-size: 58px;
-            }
-            #message {
-                color: rgb(0, 0, 255);
-                font-size:18px;
-                font-family: ;
-            }
-           body {
-               background-color: rgb(32, 199, 154);
-           }
-           b {
-               background-color: yellow;
-           }
-           #click {
-               color: rgb(3, 54, 6);
-               font-family: monospace;
-           }
-        </style>
-    </head>
-    <body>
-       <h1>
-           To prove you wrong
-       </h1>
-    <p id="message">
-    This is a website to prove to everyone that doubted me wrong.<br> and yes I made this website. It's me "<b>Jabriel</b>" and yes I<br> wrote code to make this possible. so there you have it, yay!<br>
-    </p>
-    <p id="click">
-    click the picture... yeah all it does is make a blank web because I don't want to send you anywhere :)
-    </p>
-    <a href="_blank">
-        <img src="https://www.kasandbox.org/programming-images/animals/cat.png">
-    </a>
-    
-    </body>
-</html>
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Renov8</title>
+		<link rel="stylesheet" href="CSS.css">
+<style>
+	body {
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	padding:0;
+	margin:0;
+	background-color:#cccccc;
+}
 
+header {
+	background-color:#32424a;
+	color: red;
+	padding-top: 0px;
+	min-height: 5px;
+	border:black 2px solid;
+}
+#div {
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+header a {
+	color:#ffffff;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:20px;
+}
+
+header ul {
+	margin:0;
+	padding:0;
+}
+
+header li {
+	float:left;
+	display:inline;
+	padding:0px 93px 0px 93px;
+}
+
+#top-info {
+	position:absolute;
+	width:17%;
+	right:0px;
+	top:15px;
+	z-index:1;
+}
+
+#img {
+	width:100%;
+	z-index:0;
+}
+
+#mid-info {
+	background-color: gray;
+	color:#a20000;
+}
+
+#phone-number {
+	color:green;
+}
+
+#img-1 {
+	width:50%;
+	display:block;
+	margin:auto;
+	margin-top:150px;
+	border:black 5px solid;
+}
+
+
+.info {
+	width:30%;
+	margin:auto;
+}
+
+</style>
+</head>
+<body>
+	<header>
+		<div id="div">
+		<nav>
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Jobs</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</nav>
+		</div>
+	</header>
+		<h5 id="top-info">Reliable Trucking & Logistics Services</h5>
+		<img src="HTML-img/Renov8.jpg" alt="Picture of truck" width="1800" height="500" id="img">
+
+	<hr>
+		<h2 class="info"><span id="mid-info">Contact Us Today To Get Started.</h2>
+		<h4 class="info">Fully Licensed & insured</h4>
+		<h1 class="info">Call <span id="phone-number">(321) 240-5334</span></h1>
+		<hr>
+		<h2>Professional Auto, RV and Trailer Hauling Services</h2>
+		<p><b id="b-1"><span>Renov8</span> Enterprise</b> provides quick and reliable transportation for your vehicles, along with modern equipment, skilled drivers and great pricing.</p>
+		<img src="HTML-img/Truck.jpg" alt="Truck picture"id="img-1">
+		<h1>hello</h1>
+</body>
+</html>
